@@ -15,7 +15,7 @@ return (0);
 left = height(tree->left);
 right = height(tree->right);
 
-return ((left > right ? left : right) + 1);
+return ((left > right ? left : right) +1);
 }
 
 /**
